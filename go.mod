@@ -1,8 +1,8 @@
-module github.com/mennanov/fmutils
+module github.com/showrunnr/fmutils
 
-go 1.15
+go 1.23
 
 require (
-	google.golang.org/genproto v0.0.0-20230202175211-008b39050e57
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/genproto v0.0.0-20250102185135-69823020774d
+	google.golang.org/protobuf v1.36.1
 )

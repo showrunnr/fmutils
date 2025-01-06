@@ -1,8 +1,6 @@
 # Golang protobuf FieldMask utils
 
-[![Build Status](https://github.com/mennanov/fmutils/actions/workflows/tests.yml/badge.svg)](https://github.com/mennanov/fmutils/actions/workflows/tests.yml)
-[![Coverage Status](https://codecov.io/gh/mennanov/fmutils/branch/main/graph/badge.svg)](https://codecov.io/gh/mennanov/fmutils)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/mennanov/fmutils)](https://pkg.go.dev/github.com/mennanov/fmutils)
+[![Build Status](https://github.com/showrunnr/fmutils/actions/workflows/tests.yml/badge.svg)](https://github.com/showrunnr/fmutils/actions/workflows/tests.yml)
 
 ### Filter a protobuf message with a FieldMask applied
 
@@ -49,4 +47,4 @@ fmutils.Filter(protov1.MessageV2(protoMessage), []string{"a.b.c", "d"})
 
 ### Examples
 
-See the [examples_test.go](https://github.com/mennanov/fmutils/blob/main/examples_test.go) for real life examples.
+See the [examples_test.go](https://github.com/showrunnr/fmutils/blob/main/examples_test.go) for real life examples.
