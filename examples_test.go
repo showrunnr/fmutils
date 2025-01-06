@@ -7,8 +7,8 @@ import (
 	"google.golang.org/genproto/protobuf/field_mask"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mennanov/fmutils"
-	"github.com/mennanov/fmutils/testproto"
+	"github.com/showrunnr/fmutils"
+	"github.com/showrunnr/fmutils/testproto"
 )
 
 var reSpaces = regexp.MustCompile(`\s+`)

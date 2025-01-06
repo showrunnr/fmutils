@@ -7,7 +7,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/mennanov/fmutils/testproto"
+	"github.com/showrunnr/fmutils/testproto"
 )
 
 func Test_NestedMaskFromPaths(t *testing.T) {
